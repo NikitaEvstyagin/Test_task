@@ -17,10 +17,10 @@
 ## Формат данных
 Файл **fens_training_set.csv** должен содержать две колонки без заголовка: 
  
-"<fen_string>,<move_uci>
-rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1,e2e4
-...
-"
+    "<fen_string>,<move_uci>
+    rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1,e2e4
+    ...
+    "
 
 Скрипт автоматически: 
   1. фильтрует некорректные FEN,
