@@ -33,22 +33,23 @@ rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1,e2e4
 Обучение и оценка модели: 
   python modelChess.py
 
-Пример вывода: 
-  Используется устройство: cpu
-  До фильтрации: 268551 строк
-  После фильтрации: 268549 строк
-  Обучение
-  Epoch 1/5, Avg Loss: 5.3255
-  Epoch 2/5, Avg Loss: 4.0453
-  Epoch 3/5, Avg Loss: 3.6415  
-  Epoch 4/5, Avg Loss: 3.4080
-  Epoch 5/5, Avg Loss: 3.2397
-  Оценка на тесте:
-  Test Top-1 Accuracy: 0.2683
-  Test Top-3 Accuracy: 0.4706
+Пример вывода:
+
+    Используется устройство: cpu
+    До фильтрации: 268551 строк
+    После фильтрации: 268549 строк
+    Обучение
+    Epoch 1/5, Avg Loss: 5.3255
+    Epoch 2/5, Avg Loss: 4.0453
+    Epoch 3/5, Avg Loss: 3.6415  
+    Epoch 4/5, Avg Loss: 3.4080
+    Epoch 5/5, Avg Loss: 3.2397
+    Оценка на тесте:
+    Test Top-1 Accuracy: 0.2683
+    Test Top-3 Accuracy: 0.4706
       
 
-**Метрики качества **
+Метрики качества
 
     Top-1 Accuracy: доля случаев, когда истинный ход — самый вероятный.
     Top-3 Accuracy: доля случаев, когда истинный ход в топ-3 предсказанных.
